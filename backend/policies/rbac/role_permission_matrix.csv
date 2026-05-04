@@ -1,0 +1,10 @@
+role,permission,scope
+SUPER_ADMIN,*,*
+GOVERNANCE,governance:*,institution
+DIRECTOR,institution:read,own
+TEACHER,course:read,own_courses
+TEACHER,grade:create,own_courses
+STUDENT,course:read,enrolled
+STUDENT,grade:read,own
+CANDIDATE,application:read,own
+PARENT,grade:read,children

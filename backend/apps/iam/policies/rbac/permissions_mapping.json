@@ -1,0 +1,20 @@
+{
+  "user:create": "Créer un utilisateur",
+  "user:read": "Consulter un utilisateur",
+  "user:update": "Modifier un utilisateur",
+  "user:delete": "Supprimer un utilisateur",
+  "user:list": "Lister les utilisateurs",
+  "role:create": "Créer un rôle",
+  "role:assign": "Attribuer un rôle",
+  "role:revoke": "Révoquer un rôle",
+  "course:create": "Créer un cours",
+  "course:read": "Consulter un cours",
+  "grade:create": "Saisir une note",
+  "grade:read": "Consulter une note",
+  "grade:update": "Modifier une note",
+  "admission:create": "Créer une candidature",
+  "admission:approve": "Approuver une admission",
+  "enrollment:create": "Inscrire un étudiant",
+  "finance:invoice:create": "Créer une facture",
+  "finance:payment:approve": "Approuver un paiement"
+}

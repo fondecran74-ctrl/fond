@@ -1,0 +1,16 @@
+p, SUPER_ADMIN, *, *, allow
+p, GOVERNANCE, governance:*, *, allow
+p, DIRECTOR, institution:read, *, allow
+p, DIRECTOR, department:*, own, allow
+p, TEACHER, course:read, *, allow
+p, TEACHER, grade:create, own_courses, allow
+p, TEACHER, grade:update, own_courses, allow
+p, STUDENT, course:read, enrolled, allow
+p, STUDENT, grade:read, own, allow
+p, CANDIDATE, application:read, own, allow
+p, PARENT, grade:read, children, allow
+
+g, SUPER_ADMIN, GOVERNANCE
+g, GOVERNANCE, DIRECTOR
+g, DIRECTOR, OPERATIONAL_MANAGER
+g, OPERATIONAL_MANAGER, OPERATOR

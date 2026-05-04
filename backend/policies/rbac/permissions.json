@@ -1,0 +1,9 @@
+{"permissions": [
+  "user:create", "user:read", "user:update", "user:delete", "user:list",
+  "role:create", "role:assign", "role:revoke",
+  "course:create", "course:read", "course:update",
+  "grade:create", "grade:read", "grade:update",
+  "admission:create", "admission:approve", "admission:reject",
+  "enrollment:create", "enrollment:read",
+  "finance:invoice:create", "finance:payment:approve"
+]}

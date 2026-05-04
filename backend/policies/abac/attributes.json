@@ -1,0 +1,3 @@
+{"subject_attributes": ["department", "clearance_level", "institution"],
+"resource_attributes": ["classification", "compartment", "owner"],
+"environment_attributes": ["time", "ip_address", "device_type"]}

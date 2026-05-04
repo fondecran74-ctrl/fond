@@ -1,0 +1,3 @@
+-r base.txt
+django-cachalot==2.7.2
+django-silk==5.3.3

@@ -1,0 +1,7 @@
+# Shared responses
+components:
+  responses:
+    NotFound:
+      description: Resource not found
+    Unauthorized:
+      description: Authentication required

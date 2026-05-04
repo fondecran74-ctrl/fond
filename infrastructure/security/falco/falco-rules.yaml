@@ -1,0 +1,5 @@
+- rule: Unauthorized Process
+  desc: Detect unauthorized process execution
+  condition: spawned_process and not allowed_process
+  output: "Unauthorized process (user=%user.name command=%proc.cmdline)"
+  priority: WARNING

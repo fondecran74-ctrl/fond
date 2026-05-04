@@ -1,0 +1,3 @@
+# Team Structure
+
+Modèle opérationnel.

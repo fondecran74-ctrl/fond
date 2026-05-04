@@ -1,0 +1,7 @@
+{"rules": {
+  "max_duration_hours": 4,
+  "requires_approval": true,
+  "min_approver_level": 3,
+  "audit_level": "ENHANCED",
+  "notification_channels": ["email", "sms", "in_app"]
+}}

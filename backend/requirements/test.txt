@@ -1,0 +1,13 @@
+-r base.txt
+pytest==8.3.5
+pytest-django==4.10.0
+pytest-cov==6.1.1
+pytest-asyncio==0.25.3
+pytest-mock==3.14.0
+pytest-xdist==3.5.0
+factory-boy==3.3.3
+faker==37.1.0
+responses==0.25.7
+freezegun==1.4.0
+locust==2.33.2
+hypothesis==6.127.4
