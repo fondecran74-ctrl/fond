@@ -1,0 +1,18 @@
+asyncapi: "2.6.0"
+info:
+  title: EMS Events
+  version: 1.0.0
+channels:
+  user.created:
+    publish:
+      message:
+        $ref: "#/components/messages/UserCreated"
+components:
+  messages:
+    UserCreated:
+      payload:
+        type: object
+        properties:
+          user_id:
+            type: string
+            format: uuid

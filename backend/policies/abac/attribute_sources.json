@@ -1,0 +1,5 @@
+{"sources": [
+  {"attribute": "department", "source": "user_profile"},
+  {"attribute": "clearance_level", "source": "user_roles"},
+  {"attribute": "institution", "source": "session_context"}
+]}

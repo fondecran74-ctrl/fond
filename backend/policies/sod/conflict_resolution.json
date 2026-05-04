@@ -1,0 +1,4 @@
+{"resolution_strategies": [
+  {"conflict": "PAYMENT_ISSUER-PAYMENT_APPROVER", "strategy": "BLOCK"},
+  {"conflict": "EXAM_CORRECTOR-JURY_MEMBER_SAME_EXAM", "strategy": "BLOCK_SAME_SCOPE"}
+]}

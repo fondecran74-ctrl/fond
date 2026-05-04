@@ -1,0 +1,7 @@
+{"classifications": [
+  {"level": 0, "name": "PUBLIC"},
+  {"level": 1, "name": "INTERNAL"},
+  {"level": 2, "name": "CONFIDENTIAL"},
+  {"level": 3, "name": "SECRET"},
+  {"level": 4, "name": "TOP_SECRET"}
+]}

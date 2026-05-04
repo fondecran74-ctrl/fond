@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /api/
+Disallow: /system/
+Disallow: /governance/
+Disallow: /executive/
+Disallow: /functional/
+Disallow: /academic/
+Disallow: /teacher/
+Disallow: /student/
+Disallow: /parent/
+Disallow: /candidate/

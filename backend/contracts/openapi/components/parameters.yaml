@@ -1,0 +1,9 @@
+# Shared parameters
+components:
+  parameters:
+    PageSize:
+      name: page_size
+      in: query
+      schema:
+        type: integer
+        default: 25

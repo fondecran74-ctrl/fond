@@ -1,0 +1,9 @@
+plan:
+  name: EMS Disaster Recovery Plan
+  rpo: 1h
+  rto: 4h
+  steps:
+    - Verify backups
+    - Restore database
+    - Restore application
+    - Verify functionality

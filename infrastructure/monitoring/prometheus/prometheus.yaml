@@ -1,0 +1,9 @@
+global:
+  scrape_interval: 15s
+scrape_configs:
+  - job_name: ems-backend
+    static_configs:
+      - targets: ["ems-backend:8000"]
+  - job_name: node-exporter
+    static_configs:
+      - targets: ["node-exporter:9100"]

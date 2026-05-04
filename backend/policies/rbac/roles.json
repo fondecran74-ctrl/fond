@@ -1,0 +1,13 @@
+{"roles": [
+  {"name": "SUPER_ADMIN", "level": 0},
+  {"name": "GOVERNANCE", "level": 1},
+  {"name": "DIRECTOR", "level": 2},
+  {"name": "FUNCTIONAL_DIRECTOR", "level": 3},
+  {"name": "OPERATIONAL_MANAGER", "level": 4},
+  {"name": "OPERATOR", "level": 5},
+  {"name": "TEACHER", "level": 6},
+  {"name": "STUDENT", "level": 7},
+  {"name": "CANDIDATE", "level": 7},
+  {"name": "PARENT", "level": 7},
+  {"name": "ALUMNI", "level": 7}
+]}

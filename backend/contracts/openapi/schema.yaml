@@ -1,0 +1,13 @@
+openapi: "3.1.0"
+info:
+  title: EMS API
+  version: 1.0.0
+  description: Education Management System API
+servers:
+  - url: /api/v1
+paths:
+  $ref: "./paths/iam.yaml"
+components:
+  $ref: "./components/schemas.yaml"
+security:
+  - bearerAuth: []

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: ems
+data:
+  DJANGO_SETTINGS_MODULE: config.settings.production
+  DB_HOST: postgresql.ems.svc.cluster.local
+  REDIS_URL: redis://redis.ems.svc.cluster.local:6379/0
+  KAFKA_BOOTSTRAP_SERVERS: kafka.ems.svc.cluster.local:9092

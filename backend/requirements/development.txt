@@ -1,0 +1,6 @@
+-r base.txt
+django-debug-toolbar==5.0.1
+django-extensions==3.2.3
+ipython==9.1.0
+ruff==0.9.10
+watchfiles==1.0.5

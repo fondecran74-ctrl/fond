@@ -1,0 +1,14 @@
+{
+  "subject_attributes": [
+    "department", "campus", "institution", "clearance_level", "seniority", "status"
+  ],
+  "resource_attributes": [
+    "owner", "classification", "compartment", "institution", "department", "status"
+  ],
+  "environment_attributes": [
+    "time", "day_of_week", "ip_address", "device_type", "location"
+  ],
+  "action_attributes": [
+    "read", "write", "delete", "export", "admin"
+  ]
+}
