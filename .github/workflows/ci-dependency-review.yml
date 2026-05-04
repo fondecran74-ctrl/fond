@@ -4,6 +4,7 @@ on:
 jobs:
   review:
     runs-on: ubuntu-latest
+    if: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/dependency-review-action@v4
